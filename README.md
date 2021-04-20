@@ -1,6 +1,7 @@
 # django-customtags-filters
 
 # {{ }} -------> filter
+
 # {% %} -------> tag
  # Step for Custom filter
 
