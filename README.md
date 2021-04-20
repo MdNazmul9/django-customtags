@@ -1,1 +1,1 @@
-# django-customtags
+# django-customtags-filters
