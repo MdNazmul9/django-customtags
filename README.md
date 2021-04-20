@@ -44,3 +44,20 @@
 ```
 
 # Custom simple_tag/ customtag
+# add multiple arguments to my custom template filter using simple_tag
+```
+# myFilters.py
+from django import template
+register = template.Library()
+
+@register.simple_tag
+def multiple_args_tag(a, b, c, d):
+   #do your stuff
+   return 
+
+```
+# In Template:
+
+```
+{% multiple_args_tag 'arg1' 'arg2' 'arg3' 'arg4' %}
+```
